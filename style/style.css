@@ -1,0 +1,52 @@
+﻿@charset "utf-8";
+
+body {
+    background-color: #dee2ff;
+}
+
+header {
+    background-color: #afc8ff;
+    padding: 2px 5px;
+    margin: 0% 680px;
+    border-radius: 10px;
+}
+
+#menu {
+  list-style: none;
+  overflow: hidden;
+    margin: 0% 640px;
+}
+ 
+#menu li {
+  width: 180px;
+  text-align: center;
+  background-color: #afc8ff;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  margin: 1px;
+}
+ 
+#menu li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.font1 {
+    font-size: 20px;
+    font-family: "Meiryo";
+}
+
+.font2 {
+    font-size: 14px;
+    font-family: "Meiryo";
+}
+
+main {
+    padding: 2px 5px;
+    margin: 0% 480px;
+    border-radius: 2px;
+    background-color: #e6f0ff;
+}
