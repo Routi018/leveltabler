@@ -50,3 +50,54 @@ main {
     border-radius: 2px;
     background-color: #e6f0ff;
 }
+
+
+
+.global_menu { /* メニュー全体のスタイル */
+  width: 50%;
+  left: 25%;
+  display: inline-block;
+  position: relative;
+  color: #333; /* 文字色 */
+  background: #afc8ff; /* 背景色 */
+  text-align: center;
+}
+ 
+.global_menu li {
+  display: inline-block;
+}
+ 
+.global_menu a { /* 各項目のスタイル */
+  display: block;
+  padding: 3px 30px;
+}
+ 
+.menu:hover > a {
+  background: #afddff;
+}
+ 
+.child_menu > li > a { /* 子項目のスタイル */
+  font-size: 0.8em;
+}
+.child_menu > li > a:hover { /* 子項目のスタイル（ホバー時） */
+  background: #afc8ff;
+}
+ 
+.child_menu { /* 下層メニューのスタイル */
+  width: 50%;
+  left: 20%;
+  position: absolute;
+  top: 67%; /* 親項目の直下に配置 */
+  padding: 10px;
+  color: #333; /* 文字色 */
+  background: #afc8ff; /* 背景色 */
+  visibility: hidden; /* 下層メニューを非表示 */
+}
+ 
+.menu:hover .child_menu { /* 下層メニューのスタイル（親項目ホバー時） */
+  visibility: visible; /* 下層メニューを表示 */
+}
+ 
+.child_menu a:hover {
+  color: #fff;
+}
