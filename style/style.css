@@ -6,9 +6,10 @@ body {
 
 header {
     background-color: #afc8ff;
-    padding: 2px 5px;
-    margin: 0% 680px;
+    width: 500px;
+    height: 70px;
     border-radius: 10px;
+    margin: auto;
 }
 
 
@@ -24,10 +25,12 @@ header {
 }
 
 main {
-    padding: 2px 5px;
-    margin: 0% 480px;
-    border-radius: 2px;
     background-color: #e6f0ff;
+    width: 1050px;
+    height: flex-end;
+    border-radius: 2px;
+    margin: auto;
+
 }
 
 
@@ -52,8 +55,8 @@ main {
 }
 .main_text {
  position:relative;
- bottom:125px;
- left:245px;
+ bottom:150px;
+ left:240px;
 }
 
 
