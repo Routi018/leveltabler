@@ -7,9 +7,10 @@ body {
 
 header {
     background-color: #afc8ff;
-    padding: 2px 5px;
-    margin: 0% 680px;
+    width: 500px;
+    height: 70px;
     border-radius: 10px;
+    margin: auto;
 }
 
 body.diff {
